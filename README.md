@@ -15,7 +15,7 @@
 </h5>
 
 <div align="center">
-This repository is the official implementation of Easi3R, a simple training-free approach adapting DUSt3R for dynamic scenes.
+Easi3R is a simple training-free approach adapting DUSt3R for dynamic scenes.
 </div>
 <br>
 
