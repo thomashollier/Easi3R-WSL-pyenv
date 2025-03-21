@@ -305,10 +305,10 @@ def set_scenegraph_options(inputfiles, winsize, refid, scenegraph_type):
 def main_demo(tmpdirname, model, device, image_size, server_name, server_port, silent=False, args=None):
     recon_fun = functools.partial(get_reconstructed_scene, args, tmpdirname, model, device, silent, image_size)
     model_from_scene_fun = functools.partial(get_3D_model_from_scene, tmpdirname, silent)
-    with gradio.Blocks(css=""".gradio-container {margin: 0 !important; min-width: 100%};""", title="MonST3R Demo") as demo:
+    with gradio.Blocks(css=""".gradio-container {margin: 0 !important; min-width: 100%};""", title="Easi3R Demo") as demo:
         # scene state is save so that you can change conf_thr, cam_size... without rerunning the inference
         scene = gradio.State(None)
-        gradio.HTML(f'<h2 style="text-align: center;">MonST3R Demo</h2>')
+        gradio.HTML(f'<h2 style="text-align: center;">Easi3R Demo</h2>')
         with gradio.Column():
             inputfiles = gradio.File(file_count="multiple")
             with gradio.Row():
