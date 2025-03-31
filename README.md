@@ -19,6 +19,12 @@ Easi3R is a simple training-free approach adapting DUSt3R for dynamic scenes.
 </div>
 <br>
 
+
+
+https://github.com/user-attachments/assets/80091ab5-2576-4b48-b880-a230376a6edf
+
+
+
 ## Getting Started
 
 ### Installation
