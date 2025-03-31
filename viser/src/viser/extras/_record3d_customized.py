@@ -74,6 +74,9 @@ class Record3dLoader_Customized:
         T0 = self.T_world_cameras[len(self.T_world_cameras) // 2]  # First camera pose (4x4 matrix)
         T0_inv = np.linalg.inv(T0)    # Inverse of the first camera pose
 
+        # for better visualization
+        T0_inv[:3, 3] += [0., -0.1, -0.2]
+
         # Apply T0_inv to all camera poses
         self.T_world_cameras = np.matmul(T0_inv[np.newaxis, :, :], self.T_world_cameras)
 

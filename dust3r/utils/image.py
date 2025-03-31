@@ -272,7 +272,10 @@ def load_images(folder_or_list, size, square_ok=False, verbose=True, dynamic_mas
     if verbose:
         print(f' (Found {len(imgs)} images)')
     if return_img_size:
-        return imgs, W1, H1, fps if fps > 0 else video_fps
+        if path.lower().endswith(supported_video_extensions):
+            return imgs, W1, H1, fps if fps > 0 else video_fps
+        else:
+            return imgs, W1, H1, 24
     else:
         return imgs
 
