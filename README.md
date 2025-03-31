@@ -1,10 +1,10 @@
-<h2 align="center"> <a href="https://arxiv.org/abs/2412.09606">Easi3R: Estimating Disentangled Motion from DUSt3R Without Training</a>
+<h2 align="center"> <a href="https://easi3r.github.io/">Easi3R: Estimating Disentangled Motion from DUSt3R Without Training</a>
 </h2>
 
 <h5 align="center">
 
 <!-- [![arXiv](https://img.shields.io/badge/Arxiv-2412.09606-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2412.09606)  -->
-[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://fanegg.github.io/Feat2GS/) [![X](https://img.shields.io/badge/@Xingyu%20Chen-black?logo=X)](https://x.com/RoverXingyu)  [![Bluesky](https://img.shields.io/badge/@Xingyu%20Chen-white?logo=Bluesky)](https://bsky.app/profile/xingyu-chen.bsky.social)
+[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://easi3r.github.io/) [![X](https://img.shields.io/badge/@Xingyu%20Chen-black?logo=X)](https://x.com/RoverXingyu)  [![Bluesky](https://img.shields.io/badge/@Xingyu%20Chen-white?logo=Bluesky)](https://bsky.app/profile/xingyu-chen.bsky.social)
 
 
 [Xingyu Chen](https://rover-xingyu.github.io/),
