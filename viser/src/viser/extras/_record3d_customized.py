@@ -53,7 +53,7 @@ class Record3dLoader_Customized:
         self.conf_threshold = conf_threshold
         self.foreground_conf_threshold = foreground_conf_threshold
         self.no_mask = no_mask
-        self.mask_morph = mask_morph  # 正值表示膨胀，负值表示腐蚀，0表示不变
+        self.mask_morph = mask_morph  # positive value means dilation, negative value means erosion, 0 means no change
 
         # Read frames.
         self.rgb_paths = sorted(data_dir.glob("frame_*.png"), key=lambda p: int(p.stem.split("_")[-1]))
@@ -127,10 +127,10 @@ class Record3dLoader_Customized:
                 mask = iio.imread(mask_path) > 0
                 mask: onpt.NDArray[onp.bool_] = mask
                 
-                # 应用形态学操作
-                if self.mask_morph > 0:  # 正值表示膨胀
+                # apply morphological operations
+                if self.mask_morph > 0:  # positive value means dilation
                     mask = binary_dilation(mask, disk(self.mask_morph))
-                elif self.mask_morph < 0:  # 负值表示腐蚀
+                elif self.mask_morph < 0:  # negative value means erosion
                     mask = binary_erosion(mask, disk(abs(self.mask_morph)))
             else:
                 mask = np.ones_like(depth, dtype=onp.bool_)
