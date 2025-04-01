@@ -3,8 +3,10 @@
 
 <h5 align="center">
 
-<!-- [![arXiv](https://img.shields.io/badge/Arxiv-2412.09606-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2412.09606)  -->
-[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://easi3r.github.io/) [![X](https://img.shields.io/badge/@Xingyu%20Chen-black?logo=X)](https://x.com/RoverXingyu)  [![Bluesky](https://img.shields.io/badge/@Xingyu%20Chen-white?logo=Bluesky)](https://bsky.app/profile/xingyu-chen.bsky.social)
+[![arXiv](https://img.shields.io/badge/Arxiv-2503.24391-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2503.24391) 
+[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://easi3r.github.io/) 
+[![Demo](https://img.shields.io/badge/%20Interactive-Demo-ffdf0f)](https://easi3r.github.io/interactive.html)
+[![X](https://img.shields.io/badge/@Xingyu%20Chen-black?logo=X)](https://x.com/RoverXingyu)  [![Bluesky](https://img.shields.io/badge/@Xingyu%20Chen-white?logo=Bluesky)](https://bsky.app/profile/xingyu-chen.bsky.social)
 
 
 [Xingyu Chen](https://rover-xingyu.github.io/),
@@ -18,7 +20,6 @@
 Easi3R is a simple training-free approach adapting DUSt3R for dynamic scenes.
 </div>
 <br>
-
 
 
 https://github.com/user-attachments/assets/80091ab5-2576-4b48-b880-a230376a6edf
@@ -134,5 +135,10 @@ Our code is based on [DUSt3R](https://github.com/naver/dust3r), [MonST3R](https:
 If you find our work useful, please cite:
 
 ```bibtex
-Easier
+@article{chen2025easi3r,
+    title={Easi3R: Estimating Disentangled Motion from DUSt3R Without Training},
+    author={Chen, Xingyu and Chen, Yue and Xiu, Yuliang and Geiger, Andreas and Chen, Anpei},
+    journal={arXiv preprint arXiv:2503.24391},
+    year={2025}
+    }
 ```
